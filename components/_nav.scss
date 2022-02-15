@@ -1,0 +1,17 @@
+.nav {
+  margin-top: 22px;
+  margin-bottom: 21px;
+  &__content {
+    display: flex;
+    justify-content: end;
+  }
+  &__item {
+    @include black__text;
+    margin-left: 36px;
+    padding: 5px 10px;
+    &:hover {
+      background-color: #f2b236;
+      border-radius: 12px;
+    }
+  }
+}

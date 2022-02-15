@@ -1,0 +1,60 @@
+.header {
+    background: linear-gradient(92.55deg, #F2B236 32.31%, #FF9C1A 64.34%);
+box-shadow: 0px 0px 7px #FFDBA6;
+    &__content {
+        padding-top: 56px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__text {
+        @include hed__text 
+    }
+    &__input {
+        background: white;
+        padding: 10px 25px;
+        border-radius: 50px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #a5aaaf;
+        text-decoration: none;
+        margin-left: 40px;
+        border: none;
+        
+    }
+    &__icons {
+        display: flex;
+    }
+    &__icon {
+        background: #FFF;
+        margin-left: 25px;
+        padding: 10px;
+        border-radius: 12px;
+        
+    
+     
+    }
+    &__all {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        
+    }
+}
+ 
+@media screen and (max-width: 780px) {
+    .header__logo {
+        display: none;
+    }
+    .header__input {
+        display: none;
+    }
+    .nav__item {
+        display: none;
+    }
+}
+

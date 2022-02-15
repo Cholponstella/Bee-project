@@ -1,0 +1,45 @@
+.hero {
+    
+  background: url(../img/hero.png) no-repeat;
+  background-size: cover;
+  height: 648px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  &__text {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #fafaf9;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.48);
+  }
+  &__par {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FAFAF9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  }
+  &__but {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #DB4E66;
+    box-shadow: 2px 4px 9px rgba(243, 55, 87, 0.42);
+    border-radius: 14px;
+    border: none;
+    width: 306px;
+    height: 54px;
+    cursor: pointer;
+  }
+}
